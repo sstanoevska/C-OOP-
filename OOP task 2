@@ -1,5 +1,5 @@
 /*(Package Inheritance Hierarchy) Package delivery services, such as FedEx
-DHL® n UPs®, offer several different delivery options, each associated with a specific price. Create an inheritance hierarchy to represent the different types of packages. Use the class
+DHLÂ® n UPsÂ®, offer several different delivery options, each associated with a specific price. Create an inheritance hierarchy to represent the different types of packages. Use the class
 Package as the base class in the hierarchy, then include the TwoDayPackage and Overnight Package classes that inherit from Rackage.
 The Package base class should include data members that represent the name, address, city, and zip code for both the sender and recipient of the package,
 as well as data members that store the mass (in ounces) and price per ounce to send the package. The Rackage constructor should initialize those data members. Ensure that the price per ounce contains a positive value.
@@ -45,7 +45,7 @@ public:
 
     virtual ~Package() {}
 
-    virtual double calculateCost() const { // Äîäàäåí virtual
+    virtual double calculateCost() const { // Ã„Ã®Ã¤Ã Ã¤Ã¥Ã­ virtual
         return weight * price;
     }
 
